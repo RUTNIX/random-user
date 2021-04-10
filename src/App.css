@@ -1,38 +1,68 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+background: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
+}
+
+form{
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  background-color: rgba(255, 249, 249, 0.739);
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 15%;
+  height: 20px;
+  margin: 15px 5px 0 0;
+  outline: none;
+}
+form button{
+  background-color: rgba(0, 0, 0, 0.561);
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 5%;
+  height: 20px;
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cards{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  background: url(https://image.freepik.com/free-vector/green-marble-texture-vertical-realistic-background-for-poster-flyer-wedding-card-banner_87408-121.jpg) center / cover no-repeat;
+  width: 21%;
+  margin-top: 5%;
+  padding-bottom: 1%                ;
+  border-radius: 20px;
+  background-color: rgba(248, 248, 248, 0.767);
+}
+.img{
+  width: 80%;
+  margin: 5% 0 0 10%;
+  border-radius: 5px;
+}
+.gender{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.name{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.age{
+  margin-left: 30px;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+h3{
+  text-align: center;
+  margin-top: 5%;
 }
